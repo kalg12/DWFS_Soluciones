@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Práctica de Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nombre": "node nombre.js",
+    "suma": "node suma.js",
+    "dev": "nodemon suma.js"
+  },
+  "author": "Kevin Luciano",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "bootstrap":"^5.2.0"
+  }
+}
